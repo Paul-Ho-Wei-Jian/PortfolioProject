@@ -264,4 +264,4 @@ st.markdown("***")
 left, midText = st.columns((0.1, 2.5))
 with midText:
     st.markdown(
-        "Thanks you for going through this mini-analysis with me! You can find the python script and notebook on my [Github](https://github.com/Paul-Ho-Wei-Jian/Visualisation-PortfolioProject.git) :purple_heart:")
+        "Thanks you for going through this mini-analysis with me! You can find the python script and notebook on my [Github](https://github.com/Paul-Ho-Wei-Jian/PortfolioProject.git) :purple_heart:")
