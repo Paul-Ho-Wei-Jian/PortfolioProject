@@ -200,7 +200,6 @@ data = data['First_Country']
 
 df_heatmap = df.loc[df['First_Country'].isin(data)]
 df_heatmap = pd.crosstab(df_heatmap['First_Country'],df_heatmap['target_ages'],normalize = "index").T
-st.pyplot(df_heatmap)
 
 with row2_1:
     st.subheader("4: Does Amazon prime target a certain demographics, is there a variation based on the country")
