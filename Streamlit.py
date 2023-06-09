@@ -195,8 +195,8 @@ ratings_ages = {
 }
 
 df['target_ages'] = df['rating'].replace(ratings_ages)
-# data = df.groupby('First_Country')[['First_Country', 'Count']].sum().sort_values(by = 'Count', ascending = False).reset_index()[:10]
-# data = data['First_Country']
+data = df.groupby('First_Country')[['First_Country', 'Count']].sum().sort_values(by = 'Count', ascending = False).reset_index()[:10]
+data = data['First_Country']
 
 df_heatmap = df.loc[df['First_Country'].isin(data)]
 df_heatmap = pd.crosstab(df_heatmap['First_Country'],df_heatmap['target_ages'],normalize = "index").T
