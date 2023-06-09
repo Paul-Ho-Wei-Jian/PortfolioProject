@@ -1,5 +1,6 @@
 # PortfolioProject
 Updated StreamLit Link: https://portfolioproject.streamlit.app/
+A python notebook version of the code has been included under the folder src
 
 # Project Aim 
 In this project, I showcase my data wrangling skills by performing exploratory data analysis (EDA) on a Amazon Prime dataset that is accessible on [Kaggle](https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows). The dataset contains information about amazon prime's selection of videos with it's ratings, release year, country of production, etc
